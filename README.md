@@ -9,8 +9,8 @@ not production code. For my main project, see
 
 | Notebook | Task | Dataset | Method | Result recorded in the notebook |
 |---|---|---|---|---|
-| [`hand_gesture_recognition`](hand_gesture_recognition.ipynb) | 10-class hand-gesture recognition | [LeapGestRecog](https://www.kaggle.com/datasets/gti-upm/leapgestrecog) (Kaggle) | Small CNN in Keras on 50×50 grayscale images | 100% test accuracy\* |
-| [`food101_transfer_learning`](food101_transfer_learning.ipynb) | Food image classification | [Food-101](https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/), 3- and 11-class subsets | Fine-tuned ResNet50 / InceptionV3 (Keras) | ~92% validation accuracy (3 and 11 classes) |
+| [`hand_gesture_recognition`](hand_gesture_recognition.ipynb) | 10-class hand-gesture recognition | [LeapGestRecog](https://www.gti.ssr.upm.es/data/HandGesture_database) (GTI, UPM) | Small CNN in Keras on 50×50 grayscale images | 100% test accuracy\* |
+| [`food101_transfer_learning`](food101_transfer_learning.ipynb) | Food image classification | [Food-101](https://huggingface.co/datasets/ethz/food101), 3- and 11-class subsets | Fine-tuned ResNet50 / InceptionV3 (Keras) | ~92% validation accuracy (3 and 11 classes) |
 | [`svm_cats_vs_dogs`](svm_cats_vs_dogs.ipynb) | Cat vs. dog classification | Kaggle Dogs vs. Cats | Raw pixels → PCA → SVM | 43% accuracy (below chance; see notes) |
 | [`house_price_linear_regression`](house_price_linear_regression.ipynb) | House-price regression | Housing CSVs for five Indian cities | Linear regression on area and bedrooms | R² = 0.08 |
 | [`kmeans_customer_segmentation`](kmeans_customer_segmentation.ipynb) | Customer segmentation | Mall Customers (200 rows) | K-means with the elbow method, k = 5 | Clusters plotted (unsupervised) |
